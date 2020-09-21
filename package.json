@@ -65,7 +65,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start:dev": "react-scripts start",
-    "start": "$npm_execpath serve -s build",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "heroku-postbuild": "npm run build"
   },
